@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>华商创新班成绩管理系统</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #4f46e5;
+            --primary-light: #818cf8;
+            --primary-dark: #3730a3;
+            --bg: #f0f2f5;
+            --card-bg: #ffffff;
+            --text: #1f2937;
+            --text-secondary: #6b7280;
+            --border: #e5e7eb;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans SC', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #9333ea 100%);
+            color: white;
+            padding: 20px 0;
+            box-shadow: var(--shadow-lg);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .header-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .header-title .logo {
+            font-size: 28px;
+        }
+        .header-title h1 {
+            font-size: 22px;
+            font-weight: 700;
+        }
+        .header-title p {
+            font-size: 13px;
+            opacity: 0.85;
+        }
+        .header-info {
+            display: flex;
+            gap: 20px;
+            font-size: 13px;
+        }
+        .header-info span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .header-info span::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #34d399;
+        }
+
+        /* Navigation */
+        .nav {
+            background: white;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 89px;
+            z-index: 99;
+            box-shadow: var(--shadow);
+        }
+        .nav-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            gap: 4px;
+            overflow-x: auto;
+        }
+        .nav-tab {
+            padding: 14px 20px;
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .nav-tab:hover {
+            color: var(--primary);
+            background: #f5f3ff;
+        }
+        .nav-tab.active {
+            color: var(--primary);
+            border-bottom-color: var(--primary);
+            font-weight: 600;
+        }
+
+        /* Main content */
+        .main {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        /* Overview cards */
+        .overview-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .stat-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: var(--shadow);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+        .stat-card .label {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .stat-card .value {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text);
+        }
+        .stat-card .sub {
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+        .stat-card.accent-purple .value { color: #7c3aed; }
+        .stat-card.accent-blue .value { color: #2563eb; }
+        .stat-card.accent-green .value { color: #059669; }
+        .stat-card.accent-orange .value { color: #ea580c; }
+        .stat-card.accent-red .value { color: #dc2626; }
+
+        /* Charts grid */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .chart-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: var(--shadow);
+        }
+        .chart-card.full-width {
+            grid-column: 1 / -1;
+        }
+        .chart-card h3 {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .chart-container {
+            position: relative;
+            height: 280px;
+        }
+        .chart-container.tall {
+            height: 360px;
+        }
+
+        /* Table */
+        .table-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+        .table-header {
+            padding: 20px 20px 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .table-header h3 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .table-controls {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .search-input, .filter-select {
+            padding: 8px 14px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 13px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-input:focus, .filter-select:focus {
+            border-color: var(--primary-light);
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        }
+        .search-input {
+            width: 200px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        thead {
+            background: #f9fafb;
+        }
+        th {
+            padding: 12px 16px;
+            text-align: left;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid var(--border);
+            white-space: nowrap;
+        }
+        th.sortable {
+            cursor: pointer;
+            user-select: none;
+        }
+        th.sortable:hover {
+            color: var(--primary);
+        }
+        td {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border);
+            font-size: 14px;
+        }
+        tbody tr {
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        tbody tr:hover {
+            background: #f5f3ff;
+        }
+        .rank-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 700;
+        }
+        .rank-1 { background: #fef3c7; color: #d97706; }
+        .rank-2 { background: #e0e7ff; color: #4338ca; }
+        .rank-3 { background: #fee2e2; color: #b91c1c; }
+        .rank-other { background: #f3f4f6; color: #6b7280; }
+        .score-bar {
+            display: inline-block;
+            height: 6px;
+            border-radius: 3px;
+            background: linear-gradient(90deg, #4f46e5, #7c3aed);
+            vertical-align: middle;
+            margin-left: 6px;
+        }
+        .score-tag {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .tag-excellent { background: #d1fae5; color: #065f46; }
+        .tag-good { background: #dbeafe; color: #1e40af; }
+        .tag-pass { background: #fef3c7; color: #92400e; }
+        .tag-fail { background: #fee2e2; color: #991b1b; }
+
+        /* Student detail modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 200;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px 20px;
+            overflow-y: auto;
+        }
+        .modal-overlay.active {
+            display: flex;
+        }
+        .modal {
+            background: white;
+            border-radius: 16px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: var(--shadow-lg);
+            animation: slideUp 0.3s ease;
+        }
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .modal-header {
+            padding: 24px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .modal-header h2 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--text-secondary);
+            padding: 0;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+        }
+        .modal-close:hover {
+            background: #f3f4f6;
+        }
+        .modal-body {
+            padding: 24px;
+        }
+        .detail-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .detail-item {
+            background: #f9fafb;
+            border-radius: 10px;
+            padding: 14px;
+        }
+        .detail-item .label {
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+        }
+        .detail-item .value {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .homework-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 8px;
+            margin-top: 12px;
+        }
+        .hw-item {
+            background: #f9fafb;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+        }
+        .hw-item .hw-name {
+            font-size: 11px;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+        }
+        .hw-item .hw-score {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .hw-item .hw-status {
+            font-size: 10px;
+            margin-top: 2px;
+        }
+        .hw-item.completed { border-left: 3px solid var(--success); }
+        .hw-item.unsubmitted { border-left: 3px solid var(--danger); opacity: 0.6; }
+        .attendance-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 8px;
+            margin-top: 12px;
+        }
+        .att-item {
+            background: #f9fafb;
+            border-radius: 8px;
+            padding: 8px 10px;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .att-item.signed { border-left: 3px solid var(--success); }
+        .att-item.unsigned { border-left: 3px solid var(--danger); }
+        .att-item.other { border-left: 3px solid var(--warning); }
+
+        /* Section title */
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Tab content */
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 60px 0;
+            color: var(--text-secondary);
+        }
+        .loading .spinner {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 4px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-bottom: 12px;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 24px;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            margin-top: 24px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content { flex-direction: column; text-align: center; }
+            .nav-content { padding: 0 12px; }
+            .main { padding: 16px; }
+            .charts-grid { grid-template-columns: 1fr; }
+            .table-card { overflow-x: auto; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="header-content">
+            <div class="header-title">
+                <span class="logo">📊</span>
+                <div>
+                    <h1>华商创新班成绩管理系统</h1>
+                    <p id="header-subtitle">加载中...</p>
+                </div>
+            </div>
+            <div class="header-info">
+                <span id="header-students">学生人数: --</span>
+                <span id="header-teacher">任课教师: --</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav">
+        <div class="nav-content">
+            <button class="nav-tab active" data-tab="dashboard">📊 数据看板</button>
+            <button class="nav-tab" data-tab="rankings">🏆 成绩排名</button>
+            <button class="nav-tab" data-tab="assignments">📝 作业统计</button>
+            <button class="nav-tab" data-tab="attendance">✅ 签到详情</button>
+            <button class="nav-tab" data-tab="discussion">💬 讨论参与</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>正在加载成绩数据...</p>
+        </div>
+
+        <div id="app-content" style="display:none;">
+            <!-- Dashboard Tab -->
+            <div class="tab-content active" id="tab-dashboard">
+                <div class="overview-grid" id="overview-cards"></div>
+                <div class="charts-grid">
+                    <div class="chart-card full-width">
+                        <h3>📈 分数段分布</h3>
+                        <div class="chart-container"><canvas id="chart-distribution"></canvas></div>
+                    </div>
+                    <div class="chart-card">
+                        <h3>🏫 班级成绩对比</h3>
+                        <div class="chart-container"><canvas id="chart-class-compare"></canvas></div>
+                    </div>
+                    <div class="chart-card">
+                        <h3>🎯 成绩构成雷达图（全班平均）</h3>
+                        <div class="chart-container"><canvas id="chart-radar"></canvas></div>
+                    </div>
+                    <div class="chart-card full-width">
+                        <h3>🏅 综合成绩 TOP 15</h3>
+                        <div class="chart-container tall"><canvas id="chart-top10"></canvas></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rankings Tab -->
+            <div class="tab-content" id="tab-rankings">
+                <div class="table-card">
+                    <div class="table-header">
+                        <h3>🏆 综合成绩排名</h3>
+                        <div class="table-controls">
+                            <input type="text" class="search-input" id="search-input" placeholder="搜索姓名/学号...">
+                            <select class="filter-select" id="class-filter">
+                                <option value="">全部班级</option>
+                            </select>
+                            <select class="filter-select" id="sort-filter">
+                                <option value="rank">按排名</option>
+                                <option value="total-desc">综合成绩↓</option>
+                                <option value="total-asc">综合成绩↑</option>
+                                <option value="homework-desc">作业↓</option>
+                                <option value="discussion-desc">讨论↓</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div style="overflow-x: auto;">
+                        <table id="rankings-table">
+                            <thead>
+                                <tr>
+                                    <th>排名</th>
+                                    <th>姓名</th>
+                                    <th>学号</th>
+                                    <th>班级</th>
+                                    <th>讨论(20%)</th>
+                                    <th>作业(30%)</th>
+                                    <th>签到(10%)</th>
+                                    <th>课程积分(20%)</th>
+                                    <th>PBL(20%)</th>
+                                    <th>综合成绩</th>
+                                    <th>等级</th>
+                                </tr>
+                            </thead>
+                            <tbody id="rankings-body"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Assignments Tab -->
+            <div class="tab-content" id="tab-assignments">
+                <div class="overview-grid" id="assignment-overview"></div>
+                <div class="charts-grid">
+                    <div class="chart-card">
+                        <h3>📝 各次作业平均分</h3>
+                        <div class="chart-container"><canvas id="chart-hw-avg"></canvas></div>
+                    </div>
+                    <div class="chart-card">
+                        <h3>✅ 作业完成率</h3>
+                        <div class="chart-container"><canvas id="chart-hw-rate"></canvas></div>
+                    </div>
+                </div>
+                <div class="table-card" style="margin-top:16px;">
+                    <div class="table-header">
+                        <h3>📋 学生作业明细</h3>
+                        <div class="table-controls">
+                            <input type="text" class="search-input" id="hw-search" placeholder="搜索姓名...">
+                        </div>
+                    </div>
+                    <div style="overflow-x: auto;">
+                        <table id="hw-table">
+                            <thead>
+                                <tr id="hw-table-head"></tr>
+                            </thead>
+                            <tbody id="hw-table-body"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Attendance Tab -->
+            <div class="tab-content" id="tab-attendance">
+                <div class="overview-grid" id="attendance-overview"></div>
+                <div class="charts-grid">
+                    <div class="chart-card full-width">
+                        <h3>📅 各次签到出勤率</h3>
+                        <div class="chart-container"><canvas id="chart-att-rate"></canvas></div>
+                    </div>
+                </div>
+                <div class="table-card" style="margin-top:16px;">
+                    <div class="table-header">
+                        <h3>📋 学生签到明细</h3>
+                        <div class="table-controls">
+                            <input type="text" class="search-input" id="att-search" placeholder="搜索姓名...">
+                        </div>
+                    </div>
+                    <div style="overflow-x: auto;">
+                        <table id="att-table">
+                            <thead>
+                                <tr id="att-table-head"></tr>
+                            </thead>
+                            <tbody id="att-table-body"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Discussion Tab -->
+            <div class="tab-content" id="tab-discussion">
+                <div class="overview-grid" id="discussion-overview"></div>
+                <div class="charts-grid">
+                    <div class="chart-card">
+                        <h3>💬 讨论参与度 TOP 15</h3>
+                        <div class="chart-container tall"><canvas id="chart-disc-top"></canvas></div>
+                    </div>
+                    <div class="chart-card">
+                        <h3>👍 获赞数 TOP 15</h3>
+                        <div class="chart-container tall"><canvas id="chart-likes-top"></canvas></div>
+                    </div>
+                </div>
+                <div class="table-card" style="margin-top:16px;">
+                    <div class="table-header">
+                        <h3>📋 讨论参与排名</h3>
+                    </div>
+                    <div style="overflow-x: auto;">
+                        <table id="disc-table">
+                            <thead>
+                                <tr>
+                                    <th>排名</th>
+                                    <th>姓名</th>
+                                    <th>班级</th>
+                                    <th>总讨论数</th>
+                                    <th>发表讨论</th>
+                                    <th>回复讨论</th>
+                                    <th>回复话题</th>
+                                    <th>获赞数</th>
+                                </tr>
+                            </thead>
+                            <tbody id="disc-table-body"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Student Detail Modal -->
+    <div class="modal-overlay" id="student-modal">
+        <div class="modal">
+            <div class="modal-header">
+                <h2 id="modal-title">学生详情</h2>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>华商创新班成绩管理系统 | 人工智能学院 · 计算机科学与技术（创新实验班）</p>
+        <p>课程：计算机前沿技术 | 任课教师：杨许亮 | 数据导出时间：2026-07-01</p>
+    </div>
+
+    <script>
+        let appData = null;
+        let charts = {};
+
+        // Load data
+        fetch('data.json')
+            .then(r => r.json())
+            .then(data => {
+                appData = data;
+                initApp();
+            })
+            .catch(err => {
+                document.getElementById('loading').innerHTML = '<p style="color:#ef4444;">数据加载失败: ' + err.message + '</p>';
+            });
+
+        function initApp() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('app-content').style.display = 'block';
+
+            const ci = appData.courseInfo;
+            document.getElementById('header-subtitle').textContent = ci.courseName + ' · ' + ci.className;
+            document.getElementById('header-students').textContent = '学生人数: ' + appData.totalStudents + '人';
+            document.getElementById('header-teacher').textContent = '任课教师: ' + ci.teacher;
+
+            // Populate class filter
+            const classes = [...new Set(appData.students.map(s => s.class))];
+            const filter = document.getElementById('class-filter');
+            classes.forEach(c => {
+                const opt = document.createElement('option');
+                opt.value = c;
+                opt.textContent = c.replace('23本计算机科学与技术（创新实验班）', '');
+                filter.appendChild(opt);
+            });
+
+            renderDashboard();
+            renderRankings();
+            renderAssignments();
+            renderAttendance();
+            renderDiscussion();
+
+            // Event listeners
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.addEventListener('click', () => switchTab(tab.dataset.tab));
+            });
+            document.getElementById('search-input').addEventListener('input', renderRankings);
+            document.getElementById('class-filter').addEventListener('change', renderRankings);
+            document.getElementById('sort-filter').addEventListener('change', renderRankings);
+            document.getElementById('hw-search').addEventListener('input', renderAssignments);
+            document.getElementById('att-search').addEventListener('input', renderAttendance);
+        }
+
+        function switchTab(tabName) {
+            document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
+            document.getElementById(`tab-${tabName}`).classList.add('active');
+        }
+
+        function getGrade(score) {
+            if (score >= 90) return { label: '优秀', class: 'tag-excellent' };
+            if (score >= 80) return { label: '良好', class: 'tag-good' };
+            if (score >= 60) return { label: '及格', class: 'tag-pass' };
+            return { label: '不及格', class: 'tag-fail' };
+        }
+
+        function renderDashboard() {
+            const students = appData.students;
+            const total = students.length;
+            const scores = students.map(s => s.total);
+            const avg = scores.reduce((a, b) => a + b, 0) / total;
+            const max = Math.max(...scores);
+            const min = Math.min(...scores);
+            const passCount = scores.filter(s => s >= 60).length;
+            const excellentCount = scores.filter(s => s >= 90).length;
+            const passRate = (passCount / total * 100).toFixed(1);
+            const excellentRate = (excellentCount / total * 100).toFixed(1);
+
+            // Overview cards
+            const cards = [
+                { label: '📊 学生总数', value: total + '人', sub: '创新实验班 1-2 班', cls: 'accent-purple' },
+                { label: '📈 平均成绩', value: avg.toFixed(2), sub: '满分 100 分', cls: 'accent-blue' },
+                { label: '🏆 最高分', value: max.toFixed(2), sub: students.find(s => s.total === max).name, cls: 'accent-green' },
+                { label: '📉 最低分', value: min.toFixed(2), sub: students.find(s => s.total === min).name, cls: 'accent-red' },
+                { label: '✅ 及格率', value: passRate + '%', sub: passCount + '/' + total + ' 人及格', cls: 'accent-green' },
+                { label: '⭐ 优秀率', value: excellentRate + '%', sub: excellentCount + '/' + total + ' 人优秀(≥90)', cls: 'accent-orange' },
+            ];
+            document.getElementById('overview-cards').innerHTML = cards.map(c => `
+                <div class="stat-card ${c.cls}">
+                    <div class="label">${c.label}</div>
+                    <div class="value">${c.value}</div>
+                    <div class="sub">${c.sub}</div>
+                </div>
+            `).join('');
+
+            // Score distribution
+            const ranges = [
+                { label: '0-59', min: 0, max: 60, color: '#ef4444' },
+                { label: '60-69', min: 60, max: 70, color: '#f59e0b' },
+                { label: '70-79', min: 70, max: 80, color: '#eab308' },
+                { label: '80-89', min: 80, max: 90, color: '#3b82f6' },
+                { label: '90-100', min: 90, max: 101, color: '#10b981' },
+            ];
+            const distData = ranges.map(r => scores.filter(s => s >= r.min && s < r.max).length);
+            charts.dist = new Chart(document.getElementById('chart-distribution'), {
+                type: 'bar',
+                data: {
+                    labels: ranges.map(r => r.label),
+                    datasets: [{ label: '人数', data: distData, backgroundColor: ranges.map(r => r.color), borderRadius: 8 }]
+                },
+                options: {
+                    responsive: true, maintainAspectRatio: false,
+                    plugins: { legend: { display: false }, tooltip: { callbacks: { afterLabel: ctx => `占比: ${(ctx.parsed.y/total*100).toFixed(1)}%` } } },
+                    scales: { y: { beginAtZero: true, ticks: { stepSize: 1 } } }
+                }
+            });
+
+            // Class comparison
+            const class1 = students.filter(s => s.class.includes('1班'));
+            const class2 = students.filter(s => s.class.includes('2班'));
+            const class1Avg = class1.reduce((a, s) => a + s.total, 0) / class1.length;
+            const class2Avg = class2.reduce((a, s) => a + s.total, 0) / class2.length;
+            const class1Max = Math.max(...class1.map(s => s.total));
+            const class2Max = Math.max(...class2.map(s => s.total));
+            const class1Min = Math.min(...class1.map(s => s.total));
+            const class2Min = Math.min(...class2.map(s => s.total));
+
+            charts.classCompare = new Chart(document.getElementById('chart-class-compare'), {
+                type: 'bar',
+                data: {
+                    labels: ['平均分', '最高分', '最低分'],
+                    datasets: [
+                        { label: '1班', data: [class1Avg, class1Max, class1Min], backgroundColor: '#4f46e5', borderRadius: 8 },
+                        { label: '2班', data: [class2Avg, class2Max, class2Min], backgroundColor: '#f59e0b', borderRadius: 8 }
+                    ]
+                },
+                options: {
+                    responsive: true, maintainAspectRatio: false,
+                    plugins: { legend: { position: 'bottom' } },
+                    scales: { y: { beginAtZero: true, max: 100 } }
+                }
+            });
+
+            // Radar chart
+            const avgDiscussion = students.reduce((a, s) => a + s.discussion, 0) / total;
+            const avgHomework = students.reduce((a, s) => a + s.homework, 0) / total;
+            const avgAttendance = students.reduce((a, s) => a + s.attendance, 0) / total;
+            const avgCourse = students.reduce((a, s) => a + s.courseScore, 0) / total;
+            const avgPbl = students.reduce((a, s) => a + s.pbl, 0) / total;
+
+            charts.radar = new Chart(document.getElementById('chart-radar'), {
+                type: 'radar',
+                data: {
+                    labels: ['讨论(20)', '作业(30)', '签到(10)', '课程积分(20)', 'PBL(20)'],
+                    datasets: [{
+                        label: '全班平均',
+                        data: [avgDiscussion, avgHomework, avgAttendance, avgCourse, avgPbl],
+                        backgroundColor: 'rgba(79, 70, 229, 0.2)',
+                        borderColor: '#4f46e5',
+                        pointBackgroundColor: '#4f46e5',
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true, maintainAspectRatio: false,
+                    plugins: { legend: { position: 'bottom' } },
+                    scales: { r: { beginAtZero: true, max: 30 } }
+                }
+            });
+
+            // Top 15
+            const top15 = [...students].sort((a, b) => b.total - a.total).slice(0, 15);
+            charts.top10 = new Chart(document.getElementById('chart-top10'), {
+                type: 'bar',
+                data: {
+                    labels: top15.map(s => s.name),
+                    datasets: [{ label: '综合成绩', data: top15.map(s => s.total), backgroundColor: top15.map((_, i) => i === 0 ? '#f59e0b' : i < 3 ? '#818cf8' : '#4f46e5'), borderRadius: 8 }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true, maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: { x: { beginAtZero: true, max: 100 } }
+                }
+            });
+        }
+
+        function renderRankings() {
+            const search = document.getElementById('search-input').value.toLowerCase();
+            const classFilter = document.getElementById('class-filter').value;
+            const sortFilter = document.getElementById('sort-filter').value;
+
+            let filtered = appData.students.filter(s => {
+                const matchSearch = !search || s.name.toLowerCase().includes(search) || s.studentId.includes(search);
+                const matchClass = !classFilter || s.class === classFilter;
+                return matchSearch && matchClass;
+            });
+
+            switch (sortFilter) {
+                case 'total-desc': filtered.sort((a, b) => b.total - a.total); break;
+                case 'total-asc': filtered.sort((a, b) => a.total - b.total); break;
+                case 'homework-desc': filtered.sort((a, b) => b.homework - a.homework); break;
+                case 'discussion-desc': filtered.sort((a, b) => b.discussion - a.discussion); break;
+                default: filtered.sort((a, b) => (a.rank || 999) - (b.rank || 999));
+            }
+
+            const tbody = document.getElementById('rankings-body');
+            tbody.innerHTML = filtered.map((s, i) => {
+                const rank = sortFilter === 'rank' ? s.rank : i + 1;
+                const rankClass = rank === 1 ? 'rank-1' : rank === 2 ? 'rank-2' : rank === 3 ? 'rank-3' : 'rank-other';
+                const grade = getGrade(s.total);
+                const barWidth = s.total;
+                const className = s.class.replace('23本计算机科学与技术（创新实验班）', '');
+                return `<tr onclick="showStudentDetail('${s.studentId}')">
+                    <td><span class="rank-badge ${rankClass}">${rank}</span></td>
+                    <td style="font-weight:600;">${s.name}</td>
+                    <td style="color:var(--text-secondary);">${s.studentId}</td>
+                    <td>${className}</td>
+                    <td>${s.discussion.toFixed(2)}</td>
+                    <td>${s.homework.toFixed(2)}</td>
+                    <td>${s.attendance.toFixed(2)}</td>
+                    <td>${s.courseScore.toFixed(2)}</td>
+                    <td>${s.pbl.toFixed(2)}</td>
+                    <td style="font-weight:700;">${s.total.toFixed(2)}<span class="score-bar" style="width:${barWidth * 0.5}px"></span></td>
+                    <td><span class="score-tag ${grade.class}">${grade.label}</span></td>
+                </tr>`;
+            }).join('') || '<tr><td colspan="11" style="text-align:center;padding:40px;color:var(--text-secondary);">未找到匹配的学生</td></tr>';
+        }
+
+        function showStudentDetail(studentId) {
+            const s = appData.students.find(st => st.studentId === studentId);
+            if (!s) return;
+
+            document.getElementById('modal-title').textContent = s.name + ' · 成绩详情';
+            const grade = getGrade(s.total);
+            const className = s.class.replace('23本计算机科学与技术（创新实验班）', '');
+
+            const hwHtml = s.homeworks.map(hw => {
+                const isCompleted = hw.status === '已完成';
+                return `<div class="hw-item ${isCompleted ? 'completed' : 'unsubmitted'}">
+                    <div class="hw-name">${hw.assignment}</div>
+                    <div class="hw-score">${hw.score !== null ? hw.score : '--'}</div>
+                    <div class="hw-status" style="color:${isCompleted ? 'var(--success)' : 'var(--danger)'}">${hw.status}</div>
+                </div>`;
+            }).join('');
+
+            const attHtml = s.attendanceRecords.map(att => {
+                const isSigned = att.status === '已签';
+                const cls = isSigned ? 'signed' : att.status === '未签到' ? 'unsigned' : 'other';
+                return `<div class="att-item ${cls}">
+                    <span>${att.date}</span>
+                    <span style="color:${isSigned ? 'var(--success)' : 'var(--danger)'};font-weight:600;">${att.status}</span>
+                </div>`;
+            }).join('');
+
+            const dd = s.discussionDetail || {};
+            const attCount = s.attendanceRecords.filter(a => a.status === '已签').length;
+            const attTotal = s.attendanceRecords.length;
+            const hwCount = s.homeworks.filter(h => h.status === '已完成').length;
+
+            document.getElementById('modal-body').innerHTML = `
+                <div class="detail-grid">
+                    <div class="detail-item"><div class="label">学号</div><div class="value">${s.studentId}</div></div>
+                    <div class="detail-item"><div class="label">班级</div><div class="value" style="font-size:14px;">${className}</div></div>
+                    <div class="detail-item"><div class="label">综合成绩</div><div class="value" style="color:#4f46e5;">${s.total.toFixed(2)}</div></div>
+                    <div class="detail-item"><div class="label">等级</div><div class="value"><span class="score-tag ${grade.class}">${grade.label}</span></div></div>
+                </div>
+                <div class="detail-grid">
+                    <div class="detail-item"><div class="label">讨论(20%)</div><div class="value">${s.discussion.toFixed(2)}</div></div>
+                    <div class="detail-item"><div class="label">作业(30%)</div><div class="value">${s.homework.toFixed(2)}</div></div>
+                    <div class="detail-item"><div class="label">签到(10%)</div><div class="value">${s.attendance.toFixed(2)}</div></div>
+                    <div class="detail-item"><div class="label">课程积分(20%)</div><div class="value">${s.courseScore.toFixed(2)}</div></div>
+                    <div class="detail-item"><div class="label">PBL(20%)</div><div class="value">${s.pbl.toFixed(2)}</div></div>
+                </div>
+                <h4 style="margin:20px 0 8px;font-size:14px;">📝 作业完成情况 (${hwCount}/6)</h4>
+                <div class="homework-grid">${hwHtml}</div>
+                <h4 style="margin:20px 0 8px;font-size:14px;">📅 签到记录 (${attCount}/${attTotal})</h4>
+                <div class="attendance-grid">${attHtml}</div>
+                <h4 style="margin:20px 0 8px;font-size:14px;">💬 讨论参与</h4>
+                <div class="detail-grid">
+                    <div class="detail-item"><div class="label">总讨论数</div><div class="value">${dd.totalDiscussions || 0}</div></div>
+                    <div class="detail-item"><div class="label">发表讨论</div><div class="value">${dd.posted || 0}</div></div>
+                    <div class="detail-item"><div class="label">回复讨论</div><div class="value">${dd.replied || 0}</div></div>
+                    <div class="detail-item"><div class="label">回复话题</div><div class="value">${dd.replyTopics || 0}</div></div>
+                    <div class="detail-item"><div class="label">获赞数</div><div class="value">${dd.likes || 0}</div></div>
+                </div>
+            `;
+            document.getElementById('student-modal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('student-modal').classList.remove('active');
+        }
+        document.getElementById('student-modal').addEventListener('click', e => {
+            if (e.target.id === 'student-modal') closeModal();
+        });
+
+        function renderAssignments() {
+            const students = appData.students;
+            const search = document.getElementById('hw-search')?.value.toLowerCase() || '';
+
+            // Assignment overview cards
+            const hwNames = students[0].homeworks.map(h => h.assignment);
+            const avgScores = hwNames.map((_, i) => {
+                const scores = students.map(s => s.homeworks[i].score).filter(s => s !== null);
+                return scores.reduce((a, b) => a + b, 0) / scores.length;
+            });
+            const completionRates = hwNames.map((_, i) => {
+                const completed = students.filter(s => s.homeworks[i].status === '已完成').length;
+                return (completed / students.length * 100).toFixed(1);
+            });
+
+            const cards = hwNames.map((name, i) => ({
+                label: name,
+                value: avgScores[i].toFixed(1),
+                sub: `完成率 ${completionRates[i]}%`,
+                cls: avgScores[i] >= 90 ? 'accent-green' : avgScores[i] >= 80 ? 'accent-blue' : 'accent-orange'
+            }));
+            document.getElementById('assignment-overview').innerHTML = cards.map(c => `
+                <div class="stat-card ${c.cls}">
+                    <div class="label">📝 ${c.label}</div>
+                    <div class="value">${c.value}</div>
+                    <div class="sub">${c.sub}</div>
+                </div>
+            `).join('');
+
+            // Charts
+            if (charts.hwAvg) charts.hwAvg.destroy();
+            if (charts.hwRate) charts.hwRate.destroy();
+
+            charts.hwAvg = new Chart(document.getElementById('chart-hw-avg'), {
+                type: 'bar',
+                data: {
+                    labels: hwNames,
+                    datasets: [{ label: '平均分', data: avgScores, backgroundColor: '#4f46e5', borderRadius: 8 }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, max: 100 } } }
+            });
+
+            charts.hwRate = new Chart(document.getElementById('chart-hw-rate'), {
+                type: 'doughnut',
+                data: {
+                    labels: hwNames,
+                    datasets: [{ data: completionRates, backgroundColor: ['#4f46e5', '#7c3aed', '#9333ea', '#a855f7', '#c084fc', '#d8b4fe'] }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } } }
+            });
+
+            // Table
+            let head = '<th>姓名</th><th>班级</th>';
+            hwNames.forEach(n => head += `<th>${n}</th>`);
+            head += '<th>平均分</th><th>完成率</th>';
+            document.getElementById('hw-table-head').innerHTML = head;
+
+            let filtered = students;
+            if (search) filtered = students.filter(s => s.name.toLowerCase().includes(search));
+
+            document.getElementById('hw-table-body').innerHTML = filtered.map(s => {
+                const className = s.class.replace('23本计算机科学与技术（创新实验班）', '');
+                let row = `<tr onclick="showStudentDetail('${s.studentId}')" style="cursor:pointer;">
+                    <td style="font-weight:600;">${s.name}</td><td>${className}</td>`;
+                s.homeworks.forEach(hw => {
+                    const color = hw.score === null ? 'var(--danger)' : hw.score >= 90 ? 'var(--success)' : hw.score >= 60 ? 'var(--text)' : 'var(--warning)';
+                    row += `<td style="color:${color};font-weight:${hw.score !== null ? '600' : '400'};">${hw.score !== null ? hw.score : '未交'}</td>`;
+                });
+                const scores = s.homeworks.filter(h => h.score !== null).map(h => h.score);
+                const avg = scores.length > 0 ? (scores.reduce((a, b) => a + b, 0) / scores.length).toFixed(1) : '0';
+                const rate = (s.homeworks.filter(h => h.status === '已完成').length / 6 * 100).toFixed(0);
+                row += `<td style="font-weight:700;">${avg}</td><td>${rate}%</td></tr>`;
+                return row;
+            }).join('');
+        }
+
+        function renderAttendance() {
+            const students = appData.students;
+            const search = document.getElementById('att-search')?.value.toLowerCase() || '';
+
+            // Attendance overview
+            const attDates = students[0].attendanceRecords.map(a => a.date);
+            const attRates = attDates.map((_, i) => {
+                const signed = students.filter(s => s.attendanceRecords[i].status === '已签').length;
+                return (signed / students.length * 100).toFixed(1);
+            });
+            const overallRate = (attRates.reduce((a, b) => a + parseFloat(b), 0) / attRates.length).toFixed(1);
+
+            const cards = [
+                { label: '📅 签到总次数', value: attDates.length + '次', sub: '本学期累计', cls: 'accent-purple' },
+                { label: '📊 总体出勤率', value: overallRate + '%', sub: '全班平均', cls: 'accent-green' },
+                { label: '🏆 全勤人数', value: students.filter(s => s.attendanceRecords.every(a => a.status === '已签')).length + '人', sub: '零缺勤', cls: 'accent-blue' },
+                { label: '⚠️ 有缺勤', value: students.filter(s => !s.attendanceRecords.every(a => a.status === '已签')).length + '人', sub: '至少缺勤1次', cls: 'accent-orange' },
+            ];
+            document.getElementById('attendance-overview').innerHTML = cards.map(c => `
+                <div class="stat-card ${c.cls}">
+                    <div class="label">${c.label}</div>
+                    <div class="value">${c.value}</div>
+                    <div class="sub">${c.sub}</div>
+                </div>
+            `).join('');
+
+            // Chart
+            if (charts.attRate) charts.attRate.destroy();
+            charts.attRate = new Chart(document.getElementById('chart-att-rate'), {
+                type: 'line',
+                data: {
+                    labels: attDates.map(d => d.substring(0, 15)),
+                    datasets: [{
+                        label: '出勤率(%)', data: attRates,
+                        borderColor: '#4f46e5', backgroundColor: 'rgba(79, 70, 229, 0.1)',
+                        fill: true, tension: 0.3, borderWidth: 3,
+                        pointBackgroundColor: '#4f46e5', pointRadius: 5
+                    }]
+                },
+                options: {
+                    responsive: true, maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: { y: { beginAtZero: false, min: 50, max: 100 } }
+                }
+            });
+
+            // Table
+            let head = '<th>姓名</th><th>班级</th>';
+            attDates.forEach(d => head += `<th style="font-size:10px;">${d.substring(0, 10)}</th>`);
+            head += '<th>出勤率</th>';
+            document.getElementById('att-table-head').innerHTML = head;
+
+            let filtered = students;
+            if (search) filtered = students.filter(s => s.name.toLowerCase().includes(search));
+
+            document.getElementById('att-table-body').innerHTML = filtered.map(s => {
+                const className = s.class.replace('23本计算机科学与技术（创新实验班）', '');
+                let row = `<tr style="cursor:pointer;" onclick="showStudentDetail('${s.studentId}')">
+                    <td style="font-weight:600;">${s.name}</td><td>${className}</td>`;
+                s.attendanceRecords.forEach(att => {
+                    const isSigned = att.status === '已签';
+                    const color = isSigned ? 'var(--success)' : 'var(--danger)';
+                    const symbol = isSigned ? '✓' : '✗';
+                    row += `<td style="text-align:center;color:${color};font-weight:700;font-size:16px;">${symbol}</td>`;
+                });
+                const signedCount = s.attendanceRecords.filter(a => a.status === '已签').length;
+                const rate = (signedCount / s.attendanceRecords.length * 100).toFixed(0);
+                const rateColor = rate >= 90 ? 'var(--success)' : rate >= 60 ? 'var(--warning)' : 'var(--danger)';
+                row += `<td style="font-weight:700;color:${rateColor};">${rate}%</td></tr>`;
+                return row;
+            }).join('');
+        }
+
+        function renderDiscussion() {
+            const students = appData.students;
+
+            // Overview
+            const totalDisc = students.reduce((a, s) => a + (s.discussionDetail.totalDiscussions || 0), 0);
+            const totalLikes = students.reduce((a, s) => a + (s.discussionDetail.likes || 0), 0);
+            const avgDisc = (totalDisc / students.length).toFixed(1);
+            const topDisc = Math.max(...students.map(s => s.discussionDetail.totalDiscussions || 0));
+            const topDiscStudent = students.find(s => (s.discussionDetail.totalDiscussions || 0) === topDisc);
+
+            const cards = [
+                { label: '💬 总讨论数', value: totalDisc, sub: '全班累计', cls: 'accent-purple' },
+                { label: '📊 人均讨论', value: avgDisc, sub: '条/人', cls: 'accent-blue' },
+                { label: '👍 总获赞数', value: totalLikes, sub: '全班累计', cls: 'accent-green' },
+                { label: '🏆 讨论达人', value: topDisc, sub: topDiscStudent.name + ' · ' + topDisc + '条', cls: 'accent-orange' },
+            ];
+            document.getElementById('discussion-overview').innerHTML = cards.map(c => `
+                <div class="stat-card ${c.cls}">
+                    <div class="label">${c.label}</div>
+                    <div class="value">${c.value}</div>
+                    <div class="sub">${c.sub}</div>
+                </div>
+            `).join('');
+
+            // Top 15 discussion
+            const topDisc15 = [...students].sort((a, b) => (b.discussionDetail.totalDiscussions || 0) - (a.discussionDetail.totalDiscussions || 0)).slice(0, 15);
+            if (charts.discTop) charts.discTop.destroy();
+            charts.discTop = new Chart(document.getElementById('chart-disc-top'), {
+                type: 'bar',
+                data: {
+                    labels: topDisc15.map(s => s.name),
+                    datasets: [{ label: '总讨论数', data: topDisc15.map(s => s.discussionDetail.totalDiscussions || 0), backgroundColor: '#7c3aed', borderRadius: 8 }]
+                },
+                options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { beginAtZero: true } } }
+            });
+
+            // Top 15 likes
+            const topLikes15 = [...students].sort((a, b) => (b.discussionDetail.likes || 0) - (a.discussionDetail.likes || 0)).slice(0, 15);
+            if (charts.likesTop) charts.likesTop.destroy();
+            charts.likesTop = new Chart(document.getElementById('chart-likes-top'), {
+                type: 'bar',
+                data: {
+                    labels: topLikes15.map(s => s.name),
+                    datasets: [{ label: '获赞数', data: topLikes15.map(s => s.discussionDetail.likes || 0), backgroundColor: '#10b981', borderRadius: 8 }]
+                },
+                options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { beginAtZero: true } } }
+            });
+
+            // Table
+            const sorted = [...students].sort((a, b) => (b.discussionDetail.totalDiscussions || 0) - (a.discussionDetail.totalDiscussions || 0));
+            document.getElementById('disc-table-body').innerHTML = sorted.map((s, i) => {
+                const dd = s.discussionDetail || {};
+                const className = s.class.replace('23本计算机科学与技术（创新实验班）', '');
+                const rankClass = i === 0 ? 'rank-1' : i === 1 ? 'rank-2' : i === 2 ? 'rank-3' : 'rank-other';
+                return `<tr style="cursor:pointer;" onclick="showStudentDetail('${s.studentId}')">
+                    <td><span class="rank-badge ${rankClass}">${i + 1}</span></td>
+                    <td style="font-weight:600;">${s.name}</td>
+                    <td>${className}</td>
+                    <td style="font-weight:700;">${dd.totalDiscussions || 0}</td>
+                    <td>${dd.posted || 0}</td>
+                    <td>${dd.replied || 0}</td>
+                    <td>${dd.replyTopics || 0}</td>
+                    <td style="font-weight:700;color:#10b981;">${dd.likes || 0}</td>
+                </tr>`;
+            }).join('');
+        }
+    </script>
+</body>
+</html>

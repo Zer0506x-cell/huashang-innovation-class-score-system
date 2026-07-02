@@ -1,0 +1,6117 @@
+{
+  "courseInfo": {
+    "courseName": "计算机前沿技术",
+    "className": "23本计算机科学与技术（创新实验班）【1-2】班",
+    "teacher": "杨许亮",
+    "exportTime": "2026-07-01 09:41:35",
+    "college": "人工智能学院",
+    "major": "计算机科学与技术（创新实验班）"
+  },
+  "students": [
+    {
+      "rank": 1,
+      "name": "李柏辉",
+      "studentId": "423240549",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 25.85,
+      "attendance": 10.0,
+      "courseScore": 6.2,
+      "pbl": 20.0,
+      "total": 82.05,
+      "discussionDetail": {
+        "totalDiscussions": 41,
+        "posted": 0,
+        "replied": 41,
+        "replyTopics": 5,
+        "likes": 93
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 95.0,
+          "submitTime": "2026-06-08 10:12",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 93.0,
+          "submitTime": "2026-06-08 10:18",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 91.0,
+          "submitTime": "2026-06-23 09:03",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 60.0,
+          "submitTime": "2026-06-08 10:29",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 90.0,
+          "submitTime": "2026-06-08 10:30",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 88.0,
+          "submitTime": "2026-06-08 10:31",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "杨涴淇",
+      "studentId": "423830101",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 14.2,
+      "attendance": 10.0,
+      "courseScore": 13.8,
+      "pbl": 20.0,
+      "total": 78.0,
+      "discussionDetail": {
+        "totalDiscussions": 112,
+        "posted": 0,
+        "replied": 112,
+        "replyTopics": 6,
+        "likes": 92
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-04-01 09:38",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 97.0,
+          "submitTime": "2026-04-01 09:25",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 91.0,
+          "submitTime": "2026-04-15 22:36",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "谢婉淳",
+      "studentId": "423830102",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 22.9,
+      "attendance": 10.0,
+      "courseScore": 7.6,
+      "pbl": 19.99,
+      "total": 80.49,
+      "discussionDetail": {
+        "totalDiscussions": 122,
+        "posted": 0,
+        "replied": 122,
+        "replyTopics": 5,
+        "likes": 111
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 90.0,
+          "submitTime": "2026-04-01 00:05",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-06-25 00:14",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 91.0,
+          "submitTime": "2026-06-25 00:25",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 85.0,
+          "submitTime": "2026-06-25 09:01",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 96.0,
+          "submitTime": "2026-06-25 09:05",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "郑佩佩",
+      "studentId": "423830103",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 28.15,
+      "attendance": 10.0,
+      "courseScore": 16.2,
+      "pbl": 20.0,
+      "total": 94.35,
+      "discussionDetail": {
+        "totalDiscussions": 82,
+        "posted": 0,
+        "replied": 82,
+        "replyTopics": 5,
+        "likes": 130
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 91.0,
+          "submitTime": "2026-03-30 14:23",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 93.0,
+          "submitTime": "2026-03-30 14:30",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-14 09:33",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 96.0,
+          "submitTime": "2026-04-15 09:25",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 91.0,
+          "submitTime": "2026-04-21 15:44",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 96.0,
+          "submitTime": "2026-04-30 10:29",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "曾小菊",
+      "studentId": "423830104",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 28.25,
+      "attendance": 10.0,
+      "courseScore": 19.2,
+      "pbl": 20.0,
+      "total": 97.45,
+      "discussionDetail": {
+        "totalDiscussions": 30,
+        "posted": 0,
+        "replied": 30,
+        "replyTopics": 6,
+        "likes": 110
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-03-29 17:34",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 96.0,
+          "submitTime": "2026-03-29 17:37",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-09 08:35",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 91.0,
+          "submitTime": "2026-04-13 01:49",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 92.0,
+          "submitTime": "2026-04-20 15:08",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 94.0,
+          "submitTime": "2026-04-29 22:39",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "吴汶研",
+      "studentId": "423830105",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 28.55,
+      "attendance": 10.0,
+      "courseScore": 19.6,
+      "pbl": 20.0,
+      "total": 98.15,
+      "discussionDetail": {
+        "totalDiscussions": 29,
+        "posted": 0,
+        "replied": 29,
+        "replyTopics": 5,
+        "likes": 130
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 91.0,
+          "submitTime": "2026-03-29 12:10",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 92.0,
+          "submitTime": "2026-03-29 12:34",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-13 14:55",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 100.0,
+          "submitTime": "2026-04-13 15:10",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 96.0,
+          "submitTime": "2026-04-20 18:51",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 96.0,
+          "submitTime": "2026-04-30 11:36",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "王鹏博",
+      "studentId": "423830106",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 28.9,
+      "attendance": 9.17,
+      "courseScore": 18.4,
+      "pbl": 20.0,
+      "total": 96.47,
+      "discussionDetail": {
+        "totalDiscussions": 90,
+        "posted": 0,
+        "replied": 90,
+        "replyTopics": 6,
+        "likes": 88
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 90.0,
+          "submitTime": "2026-03-31 22:22",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 96.0,
+          "submitTime": "2026-03-31 22:45",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-13 23:42",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 96.0,
+          "submitTime": "2026-04-13 23:54",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 100.0,
+          "submitTime": "2026-04-18 20:02",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 100.0,
+          "submitTime": "2026-05-13 09:31",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "病假"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "毛坚再",
+      "studentId": "423830107",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 29.3,
+      "attendance": 10.0,
+      "courseScore": 18.8,
+      "pbl": 20.0,
+      "total": 98.1,
+      "discussionDetail": {
+        "totalDiscussions": 105,
+        "posted": 0,
+        "replied": 105,
+        "replyTopics": 5,
+        "likes": 105
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-03-29 18:18",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 98.0,
+          "submitTime": "2026-03-29 19:31",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-12 16:00",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 100.0,
+          "submitTime": "2026-04-14 12:51",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 100.0,
+          "submitTime": "2026-04-23 11:43",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 96.0,
+          "submitTime": "2026-04-30 11:48",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "教师代签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "游洛杉",
+      "studentId": "423830108",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 23.5,
+      "attendance": 9.17,
+      "courseScore": 16.2,
+      "pbl": 20.0,
+      "total": 88.87,
+      "discussionDetail": {
+        "totalDiscussions": 82,
+        "posted": 0,
+        "replied": 82,
+        "replyTopics": 5,
+        "likes": 107
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 91.0,
+          "submitTime": "2026-03-30 19:40",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-14 09:49",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 96.0,
+          "submitTime": "2026-04-15 09:24",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 91.0,
+          "submitTime": "2026-04-21 15:34",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 96.0,
+          "submitTime": "2026-04-30 10:37",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "未参与"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "梁灿麟",
+      "studentId": "423830109",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 29.2,
+      "attendance": 10.0,
+      "courseScore": 18.4,
+      "pbl": 20.0,
+      "total": 97.6,
+      "discussionDetail": {
+        "totalDiscussions": 26,
+        "posted": 0,
+        "replied": 26,
+        "replyTopics": 6,
+        "likes": 135
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-03-31 20:18",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 99.0,
+          "submitTime": "2026-03-31 21:27",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 100.0,
+          "submitTime": "2026-04-15 01:42",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 100.0,
+          "submitTime": "2026-04-14 23:04",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 96.0,
+          "submitTime": "2026-04-20 12:49",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 93.0,
+          "submitTime": "2026-04-29 18:33",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "林培杨",
+      "studentId": "423830110",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 0.0,
+      "homework": 0.0,
+      "attendance": 9.17,
+      "courseScore": 2.4,
+      "pbl": 0.0,
+      "total": 11.57,
+      "discussionDetail": {
+        "totalDiscussions": 0,
+        "posted": 0,
+        "replied": 0,
+        "replyTopics": 0,
+        "likes": 0
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "未参与"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "教师代签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "杜彦苇",
+      "studentId": "423830112",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 28.35,
+      "attendance": 10.0,
+      "courseScore": 18.8,
+      "pbl": 16.67,
+      "total": 93.82,
+      "discussionDetail": {
+        "totalDiscussions": 24,
+        "posted": 0,
+        "replied": 24,
+        "replyTopics": 5,
+        "likes": 97
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 99.0,
+          "submitTime": "2026-04-01 01:51",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 99.0,
+          "submitTime": "2026-04-01 01:56",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-13 19:52",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 100.0,
+          "submitTime": "2026-04-14 16:15",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 82.0,
+          "submitTime": "2026-04-21 16:46",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 91.0,
+          "submitTime": "2026-04-29 21:46",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "付标",
+      "studentId": "423830113",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 12.4,
+      "homework": 28.4,
+      "attendance": 10.0,
+      "courseScore": 5.0,
+      "pbl": 20.0,
+      "total": 75.8,
+      "discussionDetail": {
+        "totalDiscussions": 47,
+        "posted": 0,
+        "replied": 47,
+        "replyTopics": 5,
+        "likes": 52
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-03-31 21:31",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 96.0,
+          "submitTime": "2026-03-31 21:35",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 91.0,
+          "submitTime": "2026-06-23 19:56",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 93.0,
+          "submitTime": "2026-06-23 20:04",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 96.0,
+          "submitTime": "2026-06-23 20:06",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 96.0,
+          "submitTime": "2026-06-23 20:09",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "刘雍真",
+      "studentId": "423830114",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 28.4,
+      "attendance": 10.0,
+      "courseScore": 17.6,
+      "pbl": 20.0,
+      "total": 96.0,
+      "discussionDetail": {
+        "totalDiscussions": 39,
+        "posted": 1,
+        "replied": 38,
+        "replyTopics": 6,
+        "likes": 110
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 91.0,
+          "submitTime": "2026-03-31 10:20",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 93.0,
+          "submitTime": "2026-03-31 10:46",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-13 21:38",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 100.0,
+          "submitTime": "2026-04-14 17:10",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 88.0,
+          "submitTime": "2026-04-22 08:37",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 100.0,
+          "submitTime": "2026-04-30 10:27",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "教师代签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "教师代签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "黄世铭",
+      "studentId": "423830115",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 28.05,
+      "attendance": 10.0,
+      "courseScore": 19.2,
+      "pbl": 20.0,
+      "total": 97.25,
+      "discussionDetail": {
+        "totalDiscussions": 30,
+        "posted": 0,
+        "replied": 30,
+        "replyTopics": 5,
+        "likes": 114
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 94.0,
+          "submitTime": "2026-03-29 17:48",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 96.0,
+          "submitTime": "2026-03-29 17:54",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-09 08:36",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 91.0,
+          "submitTime": "2026-04-13 01:58",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 90.0,
+          "submitTime": "2026-04-20 15:10",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 94.0,
+          "submitTime": "2026-04-29 22:40",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "符方儒",
+      "studentId": "423830116",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 28.8,
+      "attendance": 10.0,
+      "courseScore": 18.4,
+      "pbl": 20.0,
+      "total": 97.2,
+      "discussionDetail": {
+        "totalDiscussions": 99,
+        "posted": 0,
+        "replied": 99,
+        "replyTopics": 6,
+        "likes": 118
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 93.0,
+          "submitTime": "2026-03-31 11:33",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 96.0,
+          "submitTime": "2026-03-31 19:19",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-09 09:59",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 92.0,
+          "submitTime": "2026-04-14 09:50",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 100.0,
+          "submitTime": "2026-04-23 11:14",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 99.0,
+          "submitTime": "2026-04-30 11:02",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "教师代签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "邓曙",
+      "studentId": "423830117",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 28.95,
+      "attendance": 10.0,
+      "courseScore": 19.2,
+      "pbl": 19.98,
+      "total": 98.13,
+      "discussionDetail": {
+        "totalDiscussions": 93,
+        "posted": 0,
+        "replied": 93,
+        "replyTopics": 6,
+        "likes": 96
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 95.0,
+          "submitTime": "2026-03-30 18:50",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 100.0,
+          "submitTime": "2026-03-30 20:59",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 100.0,
+          "submitTime": "2026-04-14 01:13",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 100.0,
+          "submitTime": "2026-04-14 21:52",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 96.0,
+          "submitTime": "2026-04-22 08:08",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 88.0,
+          "submitTime": "2026-04-29 22:32",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "吴梓圻",
+      "studentId": "423830118",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 27.25,
+      "attendance": 10.0,
+      "courseScore": 17.2,
+      "pbl": 19.99,
+      "total": 94.44,
+      "discussionDetail": {
+        "totalDiscussions": 53,
+        "posted": 0,
+        "replied": 53,
+        "replyTopics": 6,
+        "likes": 105
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 91.0,
+          "submitTime": "2026-03-31 09:03",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 93.0,
+          "submitTime": "2026-03-31 09:45",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-13 22:06",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 92.0,
+          "submitTime": "2026-04-13 23:04",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 80.0,
+          "submitTime": "2026-04-22 15:09",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 93.0,
+          "submitTime": "2026-04-28 08:41",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "杨梓豪",
+      "studentId": "423830119",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 29.0,
+      "attendance": 10.0,
+      "courseScore": 12.6,
+      "pbl": 16.67,
+      "total": 88.27,
+      "discussionDetail": {
+        "totalDiscussions": 119,
+        "posted": 0,
+        "replied": 119,
+        "replyTopics": 5,
+        "likes": 130
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-03-31 19:21",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 96.0,
+          "submitTime": "2026-03-31 20:02",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-14 09:46",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 96.0,
+          "submitTime": "2026-04-14 12:44",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 100.0,
+          "submitTime": "2026-04-24 11:02",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 96.0,
+          "submitTime": "2026-04-30 17:09",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "教师代签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "阙联强",
+      "studentId": "423830120",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 25.65,
+      "attendance": 10.0,
+      "courseScore": 14.0,
+      "pbl": 19.99,
+      "total": 89.64,
+      "discussionDetail": {
+        "totalDiscussions": 71,
+        "posted": 0,
+        "replied": 71,
+        "replyTopics": 5,
+        "likes": 111
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-03-31 20:05",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 91.0,
+          "submitTime": "2026-03-31 19:59",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 80.0,
+          "submitTime": "2026-06-22 18:10",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 60.0,
+          "submitTime": "2026-06-03 14:05",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 90.0,
+          "submitTime": "2026-06-03 14:03",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 96.0,
+          "submitTime": "2026-04-26 01:43",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "阳震宇",
+      "studentId": "423830121",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 26.65,
+      "attendance": 10.0,
+      "courseScore": 14.6,
+      "pbl": 20.0,
+      "total": 91.25,
+      "discussionDetail": {
+        "totalDiscussions": 57,
+        "posted": 0,
+        "replied": 57,
+        "replyTopics": 5,
+        "likes": 98
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-05-16 23:49",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 96.0,
+          "submitTime": "2026-05-17 00:21",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 99.0,
+          "submitTime": "2026-05-17 00:42",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 91.0,
+          "submitTime": "2026-06-03 18:21",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 60.0,
+          "submitTime": "2026-06-03 19:23",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 91.0,
+          "submitTime": "2026-06-03 22:27",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "李俊锋",
+      "studentId": "423830122",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 27.35,
+      "attendance": 10.0,
+      "courseScore": 8.2,
+      "pbl": 19.99,
+      "total": 85.54,
+      "discussionDetail": {
+        "totalDiscussions": 56,
+        "posted": 0,
+        "replied": 56,
+        "replyTopics": 5,
+        "likes": 122
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 91.0,
+          "submitTime": "2026-06-22 22:40",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 90.0,
+          "submitTime": "2026-06-22 21:52",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-06-22 21:04",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 83.0,
+          "submitTime": "2026-06-22 20:36",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 90.0,
+          "submitTime": "2026-06-22 19:22",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 97.0,
+          "submitTime": "2026-06-22 15:39",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "郑裕达",
+      "studentId": "423830123",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 25.9,
+      "attendance": 9.17,
+      "courseScore": 7.0,
+      "pbl": 20.0,
+      "total": 82.07,
+      "discussionDetail": {
+        "totalDiscussions": 97,
+        "posted": 0,
+        "replied": 97,
+        "replyTopics": 5,
+        "likes": 94
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 90.0,
+          "submitTime": "2026-06-09 19:36",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 96.0,
+          "submitTime": "2026-04-01 09:25",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 88.0,
+          "submitTime": "2026-06-23 19:07",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 60.0,
+          "submitTime": "2026-06-09 19:37",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 90.0,
+          "submitTime": "2026-06-09 19:37",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 94.0,
+          "submitTime": "2026-06-09 19:38",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "病假"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "郑淇元",
+      "studentId": "423830124",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 28.85,
+      "attendance": 10.0,
+      "courseScore": 14.8,
+      "pbl": 20.0,
+      "total": 93.65,
+      "discussionDetail": {
+        "totalDiscussions": 40,
+        "posted": 0,
+        "replied": 40,
+        "replyTopics": 3,
+        "likes": 139
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-04-01 00:06",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 98.0,
+          "submitTime": "2026-04-01 00:46",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 100.0,
+          "submitTime": "2026-04-14 00:38",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 100.0,
+          "submitTime": "2026-04-14 16:01",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 90.0,
+          "submitTime": "2026-04-21 16:46",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 93.0,
+          "submitTime": "2026-04-30 10:28",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "name": "麦梓峰",
+      "studentId": "423830125",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 22.8,
+      "attendance": 10.0,
+      "courseScore": 18.0,
+      "pbl": 19.99,
+      "total": 90.79,
+      "discussionDetail": {
+        "totalDiscussions": 48,
+        "posted": 0,
+        "replied": 48,
+        "replyTopics": 6,
+        "likes": 93
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 91.0,
+          "submitTime": "2026-06-22 20:45",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 91.0,
+          "submitTime": "2026-06-22 20:48",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 91.0,
+          "submitTime": "2026-04-15 11:26",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 88.0,
+          "submitTime": "2026-06-22 20:46",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 95.0,
+          "submitTime": "2026-06-22 20:47",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": null,
+          "submitTime": "2026-06-30 21:25",
+          "status": "待批阅"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "name": "刘怡燊",
+      "studentId": "423830126",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 21.3,
+      "attendance": 7.5,
+      "courseScore": 14.8,
+      "pbl": 20.0,
+      "total": 83.6,
+      "discussionDetail": {
+        "totalDiscussions": 69,
+        "posted": 0,
+        "replied": 69,
+        "replyTopics": 6,
+        "likes": 124
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 60.0,
+          "submitTime": "2026-04-01 08:57",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 91.0,
+          "submitTime": "2026-06-22 20:41",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-06-22 21:35",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 88.0,
+          "submitTime": "2026-06-22 21:37",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 91.0,
+          "submitTime": "2026-06-24 19:53",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": null,
+          "submitTime": "2026-06-30 21:23",
+          "status": "待批阅"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "事假"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "缺勤"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "事假"
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "name": "张晟龙",
+      "studentId": "423830127",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 27.45,
+      "attendance": 10.0,
+      "courseScore": 19.2,
+      "pbl": 20.0,
+      "total": 96.65,
+      "discussionDetail": {
+        "totalDiscussions": 85,
+        "posted": 0,
+        "replied": 85,
+        "replyTopics": 5,
+        "likes": 94
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 90.0,
+          "submitTime": "2026-04-12 17:45",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 91.0,
+          "submitTime": "2026-05-05 16:35",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-14 00:41",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 90.0,
+          "submitTime": "2026-04-17 14:23",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 91.0,
+          "submitTime": "2026-05-05 16:14",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 91.0,
+          "submitTime": "2026-06-23 14:51",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "name": "黄心灿",
+      "studentId": "423830128",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 28.75,
+      "attendance": 10.0,
+      "courseScore": 18.8,
+      "pbl": 19.99,
+      "total": 97.54,
+      "discussionDetail": {
+        "totalDiscussions": 191,
+        "posted": 0,
+        "replied": 191,
+        "replyTopics": 5,
+        "likes": 146
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 91.0,
+          "submitTime": "2026-03-29 15:26",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 90.0,
+          "submitTime": "2026-03-29 15:10",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 100.0,
+          "submitTime": "2026-04-10 11:36",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 100.0,
+          "submitTime": "2026-04-10 12:49",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 98.0,
+          "submitTime": "2026-04-17 17:07",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 96.0,
+          "submitTime": "2026-04-26 11:06",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "name": "成志坚",
+      "studentId": "423830132",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 20.0,
+      "homework": 27.85,
+      "attendance": 10.0,
+      "courseScore": 16.0,
+      "pbl": 19.97,
+      "total": 93.82,
+      "discussionDetail": {
+        "totalDiscussions": 66,
+        "posted": 0,
+        "replied": 66,
+        "replyTopics": 5,
+        "likes": 114
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 93.0,
+          "submitTime": "2026-03-31 09:36",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 94.0,
+          "submitTime": "2026-03-31 10:03",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-13 21:54",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 91.0,
+          "submitTime": "2026-04-14 23:07",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 88.0,
+          "submitTime": "2026-04-22 08:28",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 95.0,
+          "submitTime": "2026-04-28 22:37",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "name": "肖哲",
+      "studentId": "423830134",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）1班",
+      "discussion": 12.6,
+      "homework": 28.8,
+      "attendance": 10.0,
+      "courseScore": 13.6,
+      "pbl": 4.67,
+      "total": 69.67,
+      "discussionDetail": {
+        "totalDiscussions": 16,
+        "posted": 0,
+        "replied": 16,
+        "replyTopics": 5,
+        "likes": 53
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 98.0,
+          "submitTime": "2026-03-31 23:08",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 96.0,
+          "submitTime": "2026-03-31 23:05",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-13 16:34",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 100.0,
+          "submitTime": "2026-04-14 15:49",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 90.0,
+          "submitTime": "2026-04-21 16:33",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 96.0,
+          "submitTime": "2026-04-30 10:27",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "name": "姚韵苗",
+      "studentId": "423830201",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 28.45,
+      "attendance": 9.17,
+      "courseScore": 17.4,
+      "pbl": 20.0,
+      "total": 95.02,
+      "discussionDetail": {
+        "totalDiscussions": 74,
+        "posted": 0,
+        "replied": 74,
+        "replyTopics": 5,
+        "likes": 125
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-04-04 02:00",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 99.0,
+          "submitTime": "2026-04-01 08:47",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 95.0,
+          "submitTime": "2026-04-11 11:25",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 91.0,
+          "submitTime": "2026-04-11 16:05",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 90.0,
+          "submitTime": "2026-04-22 08:37",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 98.0,
+          "submitTime": "2026-05-12 20:06",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "病假"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "name": "郑婉茹",
+      "studentId": "423830202",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 28.75,
+      "attendance": 10.0,
+      "courseScore": 19.2,
+      "pbl": 20.0,
+      "total": 97.95,
+      "discussionDetail": {
+        "totalDiscussions": 23,
+        "posted": 0,
+        "replied": 23,
+        "replyTopics": 5,
+        "likes": 94
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 92.0,
+          "submitTime": "2026-04-01 09:24",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 96.0,
+          "submitTime": "2026-03-31 18:39",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-10 18:57",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 100.0,
+          "submitTime": "2026-04-10 19:55",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 95.0,
+          "submitTime": "2026-04-17 20:03",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 96.0,
+          "submitTime": "2026-04-28 09:58",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 33,
+      "name": "黄婧怡",
+      "studentId": "423830203",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 28.25,
+      "attendance": 10.0,
+      "courseScore": 19.2,
+      "pbl": 20.0,
+      "total": 97.45,
+      "discussionDetail": {
+        "totalDiscussions": 80,
+        "posted": 0,
+        "replied": 80,
+        "replyTopics": 5,
+        "likes": 155
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 91.0,
+          "submitTime": "2026-03-30 20:04",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 91.0,
+          "submitTime": "2026-03-30 20:04",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 100.0,
+          "submitTime": "2026-04-13 18:28",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 96.0,
+          "submitTime": "2026-04-13 18:48",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 96.0,
+          "submitTime": "2026-04-20 20:36",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 91.0,
+          "submitTime": "2026-06-03 11:56",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "name": "黄昭鸿",
+      "studentId": "423830204",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 28.75,
+      "attendance": 9.17,
+      "courseScore": 14.6,
+      "pbl": 16.67,
+      "total": 89.19,
+      "discussionDetail": {
+        "totalDiscussions": 42,
+        "posted": 0,
+        "replied": 42,
+        "replyTopics": 5,
+        "likes": 102
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 93.0,
+          "submitTime": "2026-03-31 20:07",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 91.0,
+          "submitTime": "2026-04-01 10:12",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 100.0,
+          "submitTime": "2026-04-13 22:55",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 95.0,
+          "submitTime": "2026-06-22 14:53",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 96.0,
+          "submitTime": "2026-06-22 15:40",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 100.0,
+          "submitTime": "2026-06-22 15:59",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "病假"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "name": "洪华森",
+      "studentId": "423830205",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 28.3,
+      "attendance": 10.0,
+      "courseScore": 18.4,
+      "pbl": 19.99,
+      "total": 96.69,
+      "discussionDetail": {
+        "totalDiscussions": 82,
+        "posted": 0,
+        "replied": 82,
+        "replyTopics": 5,
+        "likes": 157
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 90.0,
+          "submitTime": "2026-03-28 12:34",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 90.0,
+          "submitTime": "2026-03-28 12:01",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 100.0,
+          "submitTime": "2026-04-11 15:43",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 91.0,
+          "submitTime": "2026-04-11 16:01",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 99.0,
+          "submitTime": "2026-04-20 14:02",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 96.0,
+          "submitTime": "2026-04-27 14:06",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "name": "李昊",
+      "studentId": "423830207",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 27.95,
+      "attendance": 10.0,
+      "courseScore": 18.8,
+      "pbl": 19.99,
+      "total": 96.74,
+      "discussionDetail": {
+        "totalDiscussions": 80,
+        "posted": 0,
+        "replied": 80,
+        "replyTopics": 6,
+        "likes": 122
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-03-31 11:01",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 95.0,
+          "submitTime": "2026-03-31 11:04",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-07 18:36",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 85.0,
+          "submitTime": "2026-04-14 09:39",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 99.0,
+          "submitTime": "2026-04-16 15:34",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 88.0,
+          "submitTime": "2026-04-30 08:35",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "教师代签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "name": "马靖宇",
+      "studentId": "423830208",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 0.0,
+      "homework": 0.0,
+      "attendance": 6.67,
+      "courseScore": 0.0,
+      "pbl": 0.0,
+      "total": 6.67,
+      "discussionDetail": {
+        "totalDiscussions": 0,
+        "posted": 0,
+        "replied": 0,
+        "replyTopics": 0,
+        "likes": 0
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "未参与"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "缺勤"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "未参与"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "病假"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "name": "黄梓益",
+      "studentId": "423830210",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 27.8,
+      "attendance": 9.17,
+      "courseScore": 12.6,
+      "pbl": 19.96,
+      "total": 89.53,
+      "discussionDetail": {
+        "totalDiscussions": 90,
+        "posted": 0,
+        "replied": 90,
+        "replyTopics": 5,
+        "likes": 107
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 92.0,
+          "submitTime": "2026-03-31 22:59",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 92.0,
+          "submitTime": "2026-03-30 22:56",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-13 23:07",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 91.0,
+          "submitTime": "2026-04-15 00:28",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 91.0,
+          "submitTime": "2026-04-20 21:59",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 94.0,
+          "submitTime": "2026-04-30 16:12",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "迟到"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "name": "吴焕雄",
+      "studentId": "423830211",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 28.9,
+      "attendance": 8.33,
+      "courseScore": 11.6,
+      "pbl": 3.33,
+      "total": 72.16,
+      "discussionDetail": {
+        "totalDiscussions": 57,
+        "posted": 0,
+        "replied": 57,
+        "replyTopics": 4,
+        "likes": 117
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 93.0,
+          "submitTime": "2026-03-31 22:49",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 94.0,
+          "submitTime": "2026-03-28 23:49",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 97.0,
+          "submitTime": "2026-04-13 23:15",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 100.0,
+          "submitTime": "2026-04-17 19:48",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 96.0,
+          "submitTime": "2026-04-17 19:45",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 98.0,
+          "submitTime": "2026-05-04 18:53",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "迟到"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "迟到"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "name": "梁林浩",
+      "studentId": "423830212",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 0.4,
+      "homework": 0.0,
+      "attendance": 10.0,
+      "courseScore": 7.2,
+      "pbl": 8.67,
+      "total": 26.27,
+      "discussionDetail": {
+        "totalDiscussions": 2,
+        "posted": 0,
+        "replied": 2,
+        "replyTopics": 1,
+        "likes": 0
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 41,
+      "name": "吴楚勃",
+      "studentId": "423830213",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 28.55,
+      "attendance": 10.0,
+      "courseScore": 16.4,
+      "pbl": 20.0,
+      "total": 94.95,
+      "discussionDetail": {
+        "totalDiscussions": 90,
+        "posted": 0,
+        "replied": 90,
+        "replyTopics": 5,
+        "likes": 92
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-06-16 16:30",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 96.0,
+          "submitTime": "2026-06-22 19:31",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-06-24 15:16",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 96.0,
+          "submitTime": "2026-06-26 21:07",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 96.0,
+          "submitTime": "2026-06-26 21:39",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 91.0,
+          "submitTime": "2026-06-26 22:44",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 42,
+      "name": "官培儒",
+      "studentId": "423830214",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 18.3,
+      "attendance": 10.0,
+      "courseScore": 12.8,
+      "pbl": 19.99,
+      "total": 81.09,
+      "discussionDetail": {
+        "totalDiscussions": 108,
+        "posted": 0,
+        "replied": 108,
+        "replyTopics": 5,
+        "likes": 94
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 91.0,
+          "submitTime": "2026-05-14 14:45",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 95.0,
+          "submitTime": "2026-05-14 14:44",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 88.0,
+          "submitTime": "2026-06-24 15:41",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 92.0,
+          "submitTime": "2026-06-24 15:51",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 43,
+      "name": "张泽",
+      "studentId": "423830215",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 18.55,
+      "attendance": 10.0,
+      "courseScore": 14.6,
+      "pbl": 19.99,
+      "total": 83.14,
+      "discussionDetail": {
+        "totalDiscussions": 88,
+        "posted": 0,
+        "replied": 88,
+        "replyTopics": 5,
+        "likes": 103
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 88.0,
+          "submitTime": "2026-03-31 09:55",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 96.0,
+          "submitTime": "2026-03-31 09:55",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-13 18:12",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 91.0,
+          "submitTime": "2026-04-13 22:41",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 44,
+      "name": "黎晓斐",
+      "studentId": "423830216",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 2.2,
+      "homework": 0.0,
+      "attendance": 9.17,
+      "courseScore": 1.6,
+      "pbl": 3.33,
+      "total": 16.3,
+      "discussionDetail": {
+        "totalDiscussions": 5,
+        "posted": 0,
+        "replied": 5,
+        "replyTopics": 5,
+        "likes": 1
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": null,
+          "submitTime": "2026-07-01 02:49",
+          "status": "待批阅"
+        },
+        {
+          "assignment": "作业02",
+          "score": null,
+          "submitTime": "2026-07-01 03:31",
+          "status": "待批阅"
+        },
+        {
+          "assignment": "作业03",
+          "score": null,
+          "submitTime": "2026-07-01 04:09",
+          "status": "待批阅"
+        },
+        {
+          "assignment": "作业04",
+          "score": null,
+          "submitTime": "2026-07-01 04:36",
+          "status": "待批阅"
+        },
+        {
+          "assignment": "作业05",
+          "score": null,
+          "submitTime": "2026-07-01 04:57",
+          "status": "待批阅"
+        },
+        {
+          "assignment": "作业06",
+          "score": null,
+          "submitTime": "2026-07-01 05:12",
+          "status": "待批阅"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "缺勤"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 45,
+      "name": "刘沛焕",
+      "studentId": "423830218",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 2.4,
+      "homework": 28.8,
+      "attendance": 9.17,
+      "courseScore": 8.8,
+      "pbl": 15.7,
+      "total": 64.87,
+      "discussionDetail": {
+        "totalDiscussions": 34,
+        "posted": 0,
+        "replied": 34,
+        "replyTopics": 6,
+        "likes": 0
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-06-26 19:32",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 96.0,
+          "submitTime": "2026-06-26 19:33",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-06-26 17:18",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 96.0,
+          "submitTime": "2026-06-26 16:34",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 96.0,
+          "submitTime": "2026-06-24 09:00",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 96.0,
+          "submitTime": "2026-06-26 00:54",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "未参与"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 46,
+      "name": "刘梓威",
+      "studentId": "423830219",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 28.5,
+      "attendance": 9.17,
+      "courseScore": 19.2,
+      "pbl": 19.99,
+      "total": 96.86,
+      "discussionDetail": {
+        "totalDiscussions": 40,
+        "posted": 0,
+        "replied": 40,
+        "replyTopics": 5,
+        "likes": 114
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 95.0,
+          "submitTime": "2026-04-01 09:29",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 91.0,
+          "submitTime": "2026-03-28 19:40",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-10 17:56",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 92.0,
+          "submitTime": "2026-04-13 23:01",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 96.0,
+          "submitTime": "2026-04-21 21:37",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 100.0,
+          "submitTime": "2026-04-28 09:48",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "迟到"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 47,
+      "name": "邵嘉文",
+      "studentId": "423830220",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 27.85,
+      "attendance": 10.0,
+      "courseScore": 17.2,
+      "pbl": 20.0,
+      "total": 95.05,
+      "discussionDetail": {
+        "totalDiscussions": 59,
+        "posted": 0,
+        "replied": 59,
+        "replyTopics": 5,
+        "likes": 112
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 90.0,
+          "submitTime": "2026-04-02 15:48",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 90.0,
+          "submitTime": "2026-03-31 22:46",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-13 20:46",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 96.0,
+          "submitTime": "2026-04-13 21:03",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 90.0,
+          "submitTime": "2026-04-21 22:34",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 95.0,
+          "submitTime": "2026-04-29 08:56",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 48,
+      "name": "谢东昇",
+      "studentId": "423830221",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 28.35,
+      "attendance": 10.0,
+      "courseScore": 11.0,
+      "pbl": 20.0,
+      "total": 89.35,
+      "discussionDetail": {
+        "totalDiscussions": 96,
+        "posted": 0,
+        "replied": 96,
+        "replyTopics": 5,
+        "likes": 117
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-06-19 14:00",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 96.0,
+          "submitTime": "2026-06-19 14:32",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-06-21 14:51",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 95.0,
+          "submitTime": "2026-06-21 14:58",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 91.0,
+          "submitTime": "2026-06-21 15:24",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 93.0,
+          "submitTime": "2026-06-21 19:37",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 49,
+      "name": "陈宗福",
+      "studentId": "423830222",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 28.35,
+      "attendance": 10.0,
+      "courseScore": 12.6,
+      "pbl": 20.0,
+      "total": 90.95,
+      "discussionDetail": {
+        "totalDiscussions": 40,
+        "posted": 0,
+        "replied": 40,
+        "replyTopics": 5,
+        "likes": 109
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 92.0,
+          "submitTime": "2026-04-01 09:21",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 94.0,
+          "submitTime": "2026-04-03 23:06",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 94.0,
+          "submitTime": "2026-06-19 13:27",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 96.0,
+          "submitTime": "2026-06-19 13:54",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 100.0,
+          "submitTime": "2026-06-19 15:36",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 91.0,
+          "submitTime": "2026-06-20 13:22",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 50,
+      "name": "温名伟",
+      "studentId": "423830223",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 28.65,
+      "attendance": 10.0,
+      "courseScore": 19.2,
+      "pbl": 19.95,
+      "total": 97.8,
+      "discussionDetail": {
+        "totalDiscussions": 79,
+        "posted": 0,
+        "replied": 79,
+        "replyTopics": 6,
+        "likes": 111
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 93.0,
+          "submitTime": "2026-04-22 14:19",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 92.0,
+          "submitTime": "2026-04-16 18:06",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 95.0,
+          "submitTime": "2026-04-14 14:53",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 100.0,
+          "submitTime": "2026-04-14 23:48",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 98.0,
+          "submitTime": "2026-04-21 13:46",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 95.0,
+          "submitTime": "2026-04-28 14:32",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 51,
+      "name": "郭康浩",
+      "studentId": "423830224",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 27.85,
+      "attendance": 10.0,
+      "courseScore": 18.8,
+      "pbl": 20.0,
+      "total": 96.65,
+      "discussionDetail": {
+        "totalDiscussions": 91,
+        "posted": 0,
+        "replied": 91,
+        "replyTopics": 5,
+        "likes": 119
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 93.0,
+          "submitTime": "2026-06-23 15:43",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 90.0,
+          "submitTime": "2026-04-01 09:56",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-13 17:26",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 91.0,
+          "submitTime": "2026-06-02 19:03",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 91.0,
+          "submitTime": "2026-06-02 19:08",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 96.0,
+          "submitTime": "2026-06-23 15:47",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 52,
+      "name": "陈灿",
+      "studentId": "423830225",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 23.25,
+      "attendance": 10.0,
+      "courseScore": 12.2,
+      "pbl": 19.99,
+      "total": 85.44,
+      "discussionDetail": {
+        "totalDiscussions": 60,
+        "posted": 0,
+        "replied": 60,
+        "replyTopics": 5,
+        "likes": 102
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": null,
+          "submitTime": null,
+          "status": "未完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 91.0,
+          "submitTime": "2026-04-21 17:01",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-04-21 18:11",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 91.0,
+          "submitTime": "2026-04-21 18:14",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 96.0,
+          "submitTime": "2026-04-21 16:07",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 91.0,
+          "submitTime": "2026-04-28 15:20",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 53,
+      "name": "胡一凡",
+      "studentId": "423830226",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 28.15,
+      "attendance": 10.0,
+      "courseScore": 16.0,
+      "pbl": 20.0,
+      "total": 94.15,
+      "discussionDetail": {
+        "totalDiscussions": 40,
+        "posted": 0,
+        "replied": 40,
+        "replyTopics": 5,
+        "likes": 101
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-04-21 18:27",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 91.0,
+          "submitTime": "2026-03-31 15:44",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 94.0,
+          "submitTime": "2026-04-21 16:07",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 95.0,
+          "submitTime": "2026-04-21 16:08",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 91.0,
+          "submitTime": "2026-04-21 16:10",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 96.0,
+          "submitTime": "2026-04-28 15:20",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 54,
+      "name": "梁煜岚",
+      "studentId": "423830227",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 28.0,
+      "attendance": 10.0,
+      "courseScore": 12.6,
+      "pbl": 20.0,
+      "total": 90.6,
+      "discussionDetail": {
+        "totalDiscussions": 75,
+        "posted": 0,
+        "replied": 75,
+        "replyTopics": 5,
+        "likes": 128
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-06-26 01:36",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 90.0,
+          "submitTime": "2026-04-03 15:59",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 96.0,
+          "submitTime": "2026-06-26 02:16",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 91.0,
+          "submitTime": "2026-06-26 04:17",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 96.0,
+          "submitTime": "2026-06-25 17:36",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 91.0,
+          "submitTime": "2026-06-26 03:27",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "教师代签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 55,
+      "name": "周思涵",
+      "studentId": "423830228",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 27.9,
+      "attendance": 9.17,
+      "courseScore": 12.2,
+      "pbl": 14.67,
+      "total": 83.94,
+      "discussionDetail": {
+        "totalDiscussions": 54,
+        "posted": 0,
+        "replied": 54,
+        "replyTopics": 5,
+        "likes": 104
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 92.0,
+          "submitTime": "2026-03-31 21:53",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 88.0,
+          "submitTime": "2026-06-19 19:51",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 95.0,
+          "submitTime": "2026-06-20 17:28",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 96.0,
+          "submitTime": "2026-06-27 01:29",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 96.0,
+          "submitTime": "2026-06-22 20:45",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 91.0,
+          "submitTime": "2026-06-22 21:14",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "病假"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    },
+    {
+      "rank": 56,
+      "name": "郑泽琳",
+      "studentId": "423830229",
+      "college": "人工智能学院",
+      "major": "计算机科学与技术（创新实验班）",
+      "class": "23本计算机科学与技术（创新实验班）2班",
+      "discussion": 20.0,
+      "homework": 29.0,
+      "attendance": 10.0,
+      "courseScore": 19.2,
+      "pbl": 20.0,
+      "total": 98.2,
+      "discussionDetail": {
+        "totalDiscussions": 69,
+        "posted": 0,
+        "replied": 69,
+        "replyTopics": 6,
+        "likes": 123
+      },
+      "homeworks": [
+        {
+          "assignment": "作业01",
+          "score": 96.0,
+          "submitTime": "2026-06-05 19:11",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业02",
+          "score": 98.0,
+          "submitTime": "2026-06-05 18:03",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业03",
+          "score": 97.0,
+          "submitTime": "2026-04-12 13:43",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业04",
+          "score": 98.0,
+          "submitTime": "2026-06-19 22:22",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业05",
+          "score": 100.0,
+          "submitTime": "2026-06-19 20:48",
+          "status": "已完成"
+        },
+        {
+          "assignment": "作业06",
+          "score": 91.0,
+          "submitTime": "2026-06-19 20:10",
+          "status": "已完成"
+        }
+      ],
+      "attendanceRecords": [
+        {
+          "date": "7-1(2026/07/01)",
+          "status": "已签"
+        },
+        {
+          "date": "6-3(2026/06/03)",
+          "status": "已签"
+        },
+        {
+          "date": "5-27(2026/05/27)",
+          "status": "已签"
+        },
+        {
+          "date": "5-6(2026/05/06)",
+          "status": "已签"
+        },
+        {
+          "date": "4-29(2026/04/29)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/22)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/15)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/08)",
+          "status": "已签"
+        },
+        {
+          "date": "二维码签到(2026/04/01)",
+          "status": "已签"
+        },
+        {
+          "date": "3-25(2026/03/25)",
+          "status": "已签"
+        },
+        {
+          "date": "3-18(2026/03/18)",
+          "status": "已签"
+        },
+        {
+          "date": "3-11(2026/03/11)",
+          "status": "已签"
+        }
+      ]
+    }
+  ],
+  "totalStudents": 56
+}

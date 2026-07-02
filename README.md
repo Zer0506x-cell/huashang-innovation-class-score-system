@@ -1,0 +1,133 @@
+# 华商创新班成绩管理系统
+
+> 华商学院 · 人工智能学院 · 计算机科学与技术（创新实验班）  
+> 课程：计算机前沿技术 | 任课教师：杨许亮  
+> 让数据说话，让成长可见
+
+## 项目简介
+
+本项目是华商创新班「计算机前沿技术」课程的成绩管理系统，基于 56 名学生的真实成绩数据，提供多维度的成绩可视化分析与管理功能。
+
+## 功能特性
+
+- **数据看板** — 全班成绩概览，支持分数段分布、班级对比、成绩构成雷达图等多种可视化图表
+- **成绩排名** — 支持按姓名/学号搜索、按班级筛选、多维度排序，点击查看学生详情
+- **作业统计** — 6 次作业全追踪，平均分、完成率一目了然
+- **签到管理** — 12 次签到记录，出勤率趋势图
+- **讨论分析** — 讨论参与度排名，获赞数据追踪
+- **个人画像** — 学生详情弹窗，全维度数据展示
+
+## 成绩构成
+
+| 维度 | 权重 | 说明 |
+|------|------|------|
+| 讨论参与 | 20% | 课堂讨论活跃度 |
+| 作业完成 | 30% | 6 次作业综合评分 |
+| 课堂签到 | 10% | 12 次签到出勤率 |
+| 课程积分 | 20% | 课程互动积分 |
+| 分组任务(PBL) | 20% | 项目式学习评估 |
+
+## 技术栈
+
+- HTML5 + CSS3 + JavaScript (ES6+)
+- Chart.js 4.4 — 数据可视化
+- 响应式设计 — 支持桌面/平板/手机
+- 纯前端架构 — 无需后端服务器
+
+## 快速开始
+
+### 本地运行
+
+```bash
+# 进入项目目录
+cd grade-management-system
+
+# 启动本地服务器（任选一种）
+python -m http.server 8080
+# 或
+npx serve
+```
+
+浏览器访问 `http://localhost:8080` 即可使用。
+
+### 在线访问
+
+- 系统地址：[https://38b17ee209c4482e9bc1400ba229974e.app.codebuddy.work](https://38b17ee209c4482e9bc1400ba229974e.app.codebuddy.work)
+- 推文页面：[https://df0c5d5887da44ba9577566dc7aaac44.app.codebuddy.work](https://df0c5d5887da44ba9577566dc7aaac44.app.codebuddy.work)
+
+## 部署到阿里云服务器
+
+### 方法一：Nginx 部署（推荐）
+
+```bash
+# 1. 安装 Nginx
+sudo apt update && sudo apt install nginx -y
+
+# 2. 复制项目文件到 Nginx 目录
+sudo cp -r grade-system/* /var/www/html/
+
+# 3. 配置 Nginx
+sudo cat > /etc/nginx/sites-available/grade-system << 'EOF'
+server {
+    listen 80;
+    server_name your-domain.com;
+    root /var/www/html;
+    index index.html;
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
+EOF
+
+# 4. 启用站点并重启 Nginx
+sudo ln -s /etc/nginx/sites-available/grade-system /etc/nginx/sites-enabled/
+sudo nginx -t && sudo systemctl restart nginx
+```
+
+### 方法二：Docker 部署
+
+```bash
+# 创建 Dockerfile
+cat > Dockerfile << 'EOF'
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+EOF
+
+# 构建并运行
+docker build -t grade-system .
+docker run -d -p 80:80 --name grade-system grade-system
+```
+
+### 方法三：Python 简易服务器
+
+```bash
+nohup python3 -m http.server 8080 --directory /path/to/grade-system &
+```
+
+## 项目结构
+
+```
+grade-system/
+├── index.html      # 主应用页面
+├── data.json       # 成绩数据
+└── README.md       # 项目说明
+```
+
+## 数据说明
+
+- 数据来源：华商学院教学平台一键导出
+- 数据时间：2026 年春季学期
+- 导出时间：2026-07-01 09:41:35
+- 学生人数：56 人（创新实验班 1-2 班）
+
+## 相关链接
+
+- [在线系统](https://38b17ee209c4482e9bc1400ba229974e.app.codebuddy.work)
+- [推文页面](https://df0c5d5887da44ba9577566dc7aaac44.app.codebuddy.work)
+- [GitHub 仓库](https://github.com/)
+
+## License
+
+MIT License
